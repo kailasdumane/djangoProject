@@ -1,0 +1,112 @@
+.purple-text {
+	color: #442d4d;
+}
+
+.ghostwhite-text {
+	color: #f8f8ff;
+}
+.red-text {
+	color: #FF0000;
+}
+.lime{
+	color: #00FF00;
+}
+.blue-text{
+	color:#0000FF;
+}
+.aqua-text{
+	color:#00FFFF;
+}
+.yellow-text {
+	color: #F3D000;
+	}
+
+.grey-text {
+	color: #ddd4e0;
+}
+.Fuchsia{
+	color:#FF00FF;
+}
+.tac {
+	text-align: center;
+	font-size:20px;
+}
+
+.tac1 {
+	text-align: center;
+	font-size:30px;
+}
+
+
+.purple-background {
+	margin: 0px;
+	padding: 0px;
+	background-color: #442d4d;
+}
+
+.logo {
+	float: left;
+}
+
+.navigation {
+   display: inline-block;
+   width: 100%;
+}
+
+.navigation-links {
+	margin-top: 30px;
+    margin-right: 30px;
+    float: right;
+}
+
+a:hover{
+font-size: 40px;
+font-weight:bold;
+}
+
+a1:hover{
+font-size: 20px;
+font-weight:bold;
+}
+
+.navigation-link {
+	display: inline-grid;
+	color: #ddd4e0;
+	font-size: 30px;
+	font-weight:bold;
+	text-decoration: none !important;
+	padding-right: 20px;
+	font-weight: bold;	
+}
+
+.navigation-link:hover {
+	color: #ddd4e0;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #442d4d;
+   color: #ddd4e0;
+   text-align: center;
+   z-index:0;
+}
+
+.mt-0 {
+	margin-top: 0px;
+}
+
+.pt-10 {
+	padding-top: 10px;
+}
+
+.width-100 {
+	width: 100%;
+}
+
+.display-if {
+	display: inline-flex;
+}
