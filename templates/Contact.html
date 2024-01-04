@@ -1,0 +1,51 @@
+
+{% include "header.html" %}
+
+	<!-- Middle -->
+	<div>	
+		<div class ="width-100 display-if">
+			<!-- Map -->	
+			<div class ="width-100">
+				<iframe
+					width="100%" 
+					height="410" 
+					frameborder="0" 
+					scrolling="no" 
+					marginheight="0" 
+					marginwidth="0" 
+					src="https://maps.google.com/maps?width=100%25&amp;height=410&amp;hl=en&amp;q=basmath,%20maharashtra+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+					<a href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a>
+				</iframe>
+			</div>	
+		
+			<!-- Question -->
+			<div class ="width-100 contact-question">
+				<span class="contact-question-title"> Send us your Questions: </span>
+				<form action="" method="get" target="_self" class="ghostwhite-text">
+					Name: <br> <input type="text" name="nameField" class="width-30" required/> </br>
+					Surname: <br> <input type="text" name="SurnameField" class="width-30" required/> </br>
+					age: <br> <input type="date" name="ageField" class="width-30" value="1996-12-21" max="2025-12-21" required/> </br>
+					Gender: <br>
+					Male: <input type="radio" name="Gender" value="male"> Female:<input type="radio" name="Gender" value="female" checked> </br>
+					Tel: <br> <input type="tel" name="telField" class="width-30" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="123-123-123"  required /> </br>
+					Type of question: <br>
+					<select name="typeField" class="width-30">
+						<option value="course"> Question about course </option>
+						<option value="lesson" selected'> Question about lesson </option>
+					</select> <br>
+					Question: <br>
+					<textarea name="questionField" rows="5"class="width-30" minlength="3" required></textarea>  <br>
+					<input type="submit" value="SEND" class="button-yellow" onclick="questionsent()"/> <input type="reset" value="RESET" class="button-yellow"/>
+				</form>				
+			</div>
+		</div>	
+		
+		<div class="purple-text">
+			<b> Our address is: </b>
+			<address> Basmat Maharashtra 431512 </address> 
+		</div>
+	</div>
+	
+{% include "footer.html" %}
+
+
