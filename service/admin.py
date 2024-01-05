@@ -1,7 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
-
+#Registering models here.
 from django.contrib.admin.sites import site
 from service.models import Service
 
